@@ -1,0 +1,16 @@
+POST /game HTTP/1.1
+Host: localhost:8080
+Content-Type: application/json
+Content-Length: 132
+
+{
+    "matchDate": "09 September 2020",
+    "team1": "Indonesia",
+    "team2": "Malaysia",
+    "stadium": "Gelora Bung Karno"
+}
+
+###
+
+GET /game HTTP/1.1
+Host: localhost:8080
